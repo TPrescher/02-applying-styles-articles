@@ -1,0 +1,146 @@
+/* Set the background color, text color, font, and remove default margin/padding */
+body {
+  background-color: #f7f7f9; /* Light background */
+  color: #222; /* Dark text for contrast */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Modern, easy-to-read font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header area */
+header {
+  background: #fff; /* White background */
+  padding: 2rem 1rem 1rem 1rem; /* Space around the content */
+  text-align: center; /* Center the text */
+  border-bottom: 1px solid #e0e0e0; /* Subtle line below header */
+}
+
+/* Main site title */
+h1 {
+  font-size: 2.2rem; /* Large font size */
+  margin: 0;
+  letter-spacing: 1px; /* Space between letters */
+}
+
+/* Center the main content and set a max width */
+main {
+  max-width: 700px;
+  margin: 2rem auto; /* Center horizontally with margin */
+  padding: 0 1rem; /* Space on left and right */
+}
+
+/* Style for the featured article to make it stand out */
+#featured-article article {
+  background: #e9ecef; /* Light gray background */
+  border-left: 5px solid #7b8fa1; /* Colored bar on the left */
+  padding: 1.5rem 1rem; /* Space inside */
+  margin-bottom: 2rem; /* Space below */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Featured article title */
+#featured-article h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+/* Style for regular articles */
+#articles article {
+  background: #fff; /* White background */
+  border: 1px solid #e0e0e0; /* Light border */
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+
+/* Regular article titles */
+#articles h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Style the metadata list (author, date, category) */
+.metadata {
+  list-style: none; /* Remove bullets */
+  padding: 0;
+  margin: 0 0 0.7rem 0; /* Space below */
+  display: flex; /* Show items in a row */
+  gap: 1.2rem; /* Space between items */
+  font-size: 0.95rem;
+  color: #666; /* Gray text */
+}
+
+/* Add a dot between metadata items */
+.metadata li::after {
+  content: "•";
+  margin-left: 1rem;
+  color: #bbb;
+}
+
+/* Remove the dot after the last item */
+.metadata li:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+/* Style for article paragraphs */
+article p {
+  margin: 0 0 1rem 0; /* Space below */
+  line-height: 1.6; /* Easier to read */
+}
+
+/* Style for "Read More" links */
+article a {
+  color: #3a5ca8; /* Blue color */
+  text-decoration: none; /* No underline */
+  font-weight: bold;
+}
+
+/* Underline link on hover */
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Style the footer area */
+footer {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+}
+
+/* "More Articles" heading */
+#more-articles h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Remove bullets and spacing for more articles list */
+#more-articles ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Space between more articles links */
+#more-articles li {
+  margin-bottom: 0.5rem;
+}
+
+/* Style for more articles links */
+#more-articles a {
+  color: #3a5ca8;
+  text-decoration: none;
+}
+
+/* Underline more articles links on hover */
+#more-articles a:hover {
+  text-decoration: underline;
+}
+
+/* Add spacing between sections */
+section {
+  margin-bottom: 2rem;
+}
+
